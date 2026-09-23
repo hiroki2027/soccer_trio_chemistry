@@ -139,7 +139,7 @@ celerybeat.pid
 # RabbitMQ
 mnesia/
 rabbitmq/
-rabbitmq-data/
+rabbitmq-data
 
 # ActiveMQ
 activemq-data/
@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Date (大きいファイル,生データとか)
+data/
+
+# Papers/ PDFs
+papers/
+*.pdf
+
